@@ -6,7 +6,7 @@ public class test005 {
         searchfile(test, "AppxReparse.exe");
     }
 
-    //写一个方法来实现，文件搜索的操作
+    //写一个递归方法来实现，文件搜索的操作
     public static void searchfile(File dir, String name) {
         //传入dir文件对象，和要搜索的文件名name
         if (dir != null && dir.isDirectory()) { //判断dir非空且是一个目录
