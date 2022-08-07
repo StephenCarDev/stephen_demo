@@ -46,6 +46,7 @@ public class test004 {
                 String str1 = new String(temp, 0, len);
                 //String指定起始与结束位置
                 String str2 = str1.replaceAll(",|\\.", "");
+                //String str2 = str.replaceAll(",|\\.", " ").replaceAll("\\s+", " ");
                 String[] strs = str2.split(" ");
                 for (String s : strs) {
                     if (map.containsKey(s)) {
